@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
 <body> 
-<script>
-// Código para Shortcuts do iOS
+<p>// Código para Shortcuts do iOS
 var jogos = [
     { name: "Clash Royale", url: "clashroyale://" },
     { name: "Roblox", url: "roblox://" },
@@ -17,12 +16,7 @@ var jogos = [
 ];
 
 // Retornar a lista de jogos para o Shortcuts
-if (typeof completion !== 'undefined') {
-    completion(jogos);
-} else {
-    // Para visualização no navegador
-    document.body.innerHTML = '<h3>Lista de Jogos para iOS Shortcuts</h3><pre>' + JSON.stringify(jogos, null, 2) + '</pre>';
-}
-</script>
+completion(jogos);
+  </p>
 </body>
-</html>
+</html> corrija esse codigo
